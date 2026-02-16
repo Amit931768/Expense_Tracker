@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+/*  Wine Card */
+.card{
+    width: 340px;
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #C2185B, #8E3A8C);
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Inputs */
+input{
+    width: 90%;
+    padding: 10px;
+    margin: 6px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+/* Buttons */
+button{
+    background: #5A1E5C;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #8E3A8C;
+}
+
+/* Expense List */
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    background: rgba(255,255,255,0.25);
+    margin: 6px auto;
+    padding: 8px;
+    width: 90%;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Action Buttons */
+.action-btn{
+    margin-left: 5px;
+}
+
+/*  Chart Text Fix */
+canvas{
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+}
